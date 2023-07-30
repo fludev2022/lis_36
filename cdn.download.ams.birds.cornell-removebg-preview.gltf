@@ -1,0 +1,156 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2110,
+      "type": "VEC3",
+      "min": [
+        0.24893000721931458,
+        -0.63550001382827759,
+        75.816390991210938
+      ],
+      "max": [
+        0.47659000754356384,
+        0.63991999626159668,
+        77.013931274414063
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2110,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2110,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 11466,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "combinación de capa 1 - textura difusión"
+    }
+  ],
+  "images": [
+    {
+      "uri": "combinación de capa 1 - textura difusión.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 45864
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 45864,
+      "byteLength": 25320,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 71184,
+      "byteLength": 25320,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96504,
+      "byteLength": 16880,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 113384,
+      "uri": "cdn.download.ams.birds.cornell-removebg-preview.bin"
+    }
+  ]
+}
